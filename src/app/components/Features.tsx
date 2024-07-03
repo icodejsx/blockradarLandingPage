@@ -8,13 +8,13 @@ const Features = () => {
                 <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  md:text-xl px-6 py-2 rounded-full inline' >
                     Features
                 </h5>
-                <h1 className='md:text-[40px] font-bold '>
+                <h1 className='lg:text-[40px] md:text-3xl text-xl font-bold '>
                     Why Our Solution Stands Out
                 </h1>
             </div>
 
             <main className=' md:grid grid-cols-4 md:gap-5 flex flex-col gap-8 '>
-                <div className='col-span-1 p-5 bg-[#191919] rounded-lg flex flex-col gap-9'>
+                <div className='lg:col-span-1 col-span-2 p-5 bg-[#191919] rounded-lg flex flex-col gap-9'>
                     <Image src="1.svg" alt='' width={40} height={10} />
                     <div className='flex flex-col gap-3 py-'>
                         <p className='font-bold text-[#FEFEFE] text-[16px]'> Seamless Integration</p>
@@ -22,7 +22,7 @@ const Features = () => {
                     </div>
                 </div>
 
-                <div className='col-span-1 p-5 bg-[#191919] rounded-lg flex flex-col gap-9'>
+                <div className='lg:col-span-1 col-span-2 p-5 bg-[#191919] rounded-lg flex flex-col gap-9'>
                     <Image src="2.svg" alt='' width={40} height={10} />
                     <div className='flex flex-col gap-3 py-'>
                         <p className='font-bold text-[#FEFEFE] text-[16px]'> Non-Custodial Security</p>
@@ -30,7 +30,7 @@ const Features = () => {
                     </div>
                 </div>
 
-                <div className='col-span-1 p-5 bg-[#191919] rounded-lg flex flex-col gap-9'>
+                <div className='lg:col-span-1 col-span-2 p-5 bg-[#191919] rounded-lg flex flex-col gap-9'>
                     <Image src="3.svg" alt='' width={40} height={10} />
                     <div className='flex flex-col gap-3 py-'>
                         <p className='font-bold text-[#FEFEFE] text-[16px]'> User Empowerment</p>
@@ -38,7 +38,7 @@ const Features = () => {
                     </div>
                 </div>
 
-                <div className='col-span-1 p-5 bg-[#191919] rounded-lg flex flex-col gap-9'>
+                <div className='lg:col-span-1 col-span-2 p-5 bg-[#191919] rounded-lg flex flex-col gap-9'>
                     <Image src="4.svg" alt='' width={40} height={10} />
                     <div className='flex flex-col gap-3 py-'>
                         <p className='font-bold text-[#FEFEFE] text-[16px]'>Developer-Friendly</p>
