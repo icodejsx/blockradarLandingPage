@@ -3,17 +3,17 @@ import React from 'react'
 
 const Features = () => {
     return (
-        <section className='w-full flex flex-col items-center gap-16 p-10'>
+        <section className='w-full flex flex-col items-center md:gap-16 gap-10 p-5 md:p-10'>
             <div className='flex flex-col gap-4 items-center'>
-                <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  text-xl px-6 py-2 rounded-full inline' >
+                <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  md:text-xl px-6 py-2 rounded-full inline' >
                     Features
                 </h5>
-                <h1 className='text-[40px] font-bold '>
+                <h1 className='md:text-[40px] font-bold '>
                     Why Our Solution Stands Out
                 </h1>
             </div>
 
-            <main className=' grid grid-cols-4 gap-5'>
+            <main className=' md:grid grid-cols-4 md:gap-5 flex flex-col gap-8 '>
                 <div className='col-span-1 p-5 bg-[#191919] rounded-lg flex flex-col gap-9'>
                     <Image src="1.svg" alt='' width={40} height={10} />
                     <div className='flex flex-col gap-3 py-'>

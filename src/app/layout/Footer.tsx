@@ -4,11 +4,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <section className='px-10 pb-4  pt-20 flex flex-col w-full gap-20'>
-            <div className=' flex items-start gap-24 justify-start'>
+        <section className='md:px-10 pb-4 p-5  pt-20 flex flex-col w-full gap-20'>
+            <div className=' flex md:items-start justify-between md:gap-24 md:justify-start w-full'>
                 <div className=''>
-
-                    <Image src={"/d.png"} alt='' width={200} height={100} />
+                    <Image src={"/d.png"} alt='' width={200} height={100} className='w-14  md:w-52' />
                 </div>
                 <main className='flex flex-col gap-4'>
                     <p className=''>Links</p>
@@ -28,7 +27,7 @@ const Footer = () => {
                     </div>
                 </main>
             </div>
-            <div className='flex justify-between'>
+            <div className='flex md:flex-row flex-col gap-2 justify-between'>
                 <p className='text-[#696969] text-xs'>2024 Blocktadar Company Group. All right reserved.</p>
                 <div className='flex items-center gap-3 text-sm text-[#B7B7B7]'>
                     <Link href={""} >Privacy Policy</Link>
