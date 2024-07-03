@@ -37,7 +37,7 @@ const Page = () => {
 
   return (
     <section className="w-full   ">
-      <div className="flex flex-col items-center w-full gap-16" style={{ backgroundImage: 'url("/background.svg")', }}>
+      <div className="flex flex-col items-center w-full gap-10 md:gap-16" style={{ backgroundImage: 'url("/background.svg")', }}>
         <header className="w-full p-5">
           <main className="flex justify-between items-center w-full">
             <div className="flex items-center gap-2">
@@ -92,19 +92,20 @@ const Page = () => {
             </div>
           )}
         </header>
+
         <main className="flex flex-col items-center gap-6 p-5">
-          <div className="hidden  md:text-[4rem] md:flex flex-col items-center md:gap-4  font-bold bg-gradient-to-t from-[#a4a2a2] to-[#d6d7d6] bg-clip-text text-transparent">
+          <div className="hidden md:text-5xl  lg:text-[4rem] md:flex flex-col items-center md:gap-4  font-bold bg-gradient-to-t from-[#a4a2a2] to-[#d6d7d6] bg-clip-text text-transparent">
             <h1>Seamless Stablecoin Deposit</h1>
             <h1>For Your Fintech App</h1>
           </div>
 
-          <div className="md:hidden  text-3xl md:text-[4rem] flex flex-col items-center md:gap-4  text- font-bold bg-gradient-to-t from-[#a4a2a2] to-[#d6d7d6] bg-clip-text text-transparent">
+          <div className="md:hidden  text-2xl md:text-[4rem] flex flex-col items-center md:gap-4  text-center font-bold bg-gradient-to-t from-[#a4a2a2] to-[#d6d7d6] bg-clip-text text-transparent">
             <h1>Seamless Stablecoin Deposit For Your Fintech App</h1>
 
           </div>
 
 
-          <div className="lg:w-[800px] md:text-center md:text-xl font-medium">
+          <div className="lg:w-[800px] md:w-[600px] text-center md:text-xl font-medium">
             <h6>Empower your customers with secure, non-custodial stablecoin deposits using our easy-to-integrate wallet infrastructure.</h6>
           </div>
           <Link href="" className="bg-gradient-to-t from-[#245200] to-[#70FF00] px-6 py-2 rounded-full shadow-2xl border border-[#70FF00]">
