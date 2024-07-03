@@ -8,7 +8,7 @@ const HowItWorks = () => {
                 <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  md:text-xl px-6 py-2 rounded-full inline' >
                     How it Works
                 </h5>
-                <h1 className='text-xl md:text-[40px] font-bold '>
+                <h1 className='text-xl md:text-3xl md:text-[40px] font-bold '>
                     The Process Unveiled
                 </h1>
             </div>
@@ -19,7 +19,7 @@ const HowItWorks = () => {
                     <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  text px-6 py-2 md:text-xl rounded-full inline' >
                         Step 1
                     </h5>
-                    <h1 className='md:text-4xl  text-2xl font-bold'>Integrate</h1>
+                    <h1 className='lg:text-4xl md:text-3xl  text-2xl font-bold'>Integrate</h1>
                     <div className='col-span-1 flex md:hidden items-end justify-end'>
                         <Image src={"/how.svg"} alt='' width={700} height={100} />
                     </div>
@@ -41,7 +41,7 @@ const HowItWorks = () => {
                     <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  text px-6 py-2 md:text-xl rounded-full inline' >
                         Step 2
                     </h5>
-                    <h1 className='md:text-4xl text-2xl font-bold'>Deposit</h1>
+                    <h1 className='lg:text-4xl md:text-3xl text-2xl font-bold'>Deposit</h1>
                     <div className='col-span-1 md:hidden flex items-end justify-start'>
                         <Image src={"/step2.svg"} alt='' width={700} height={100} />
                     </div>
@@ -57,7 +57,7 @@ const HowItWorks = () => {
                     <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  text px-6 py-2 md:text-xl rounded-full inline' >
                         Step 3
                     </h5>
-                    <h1 className='md:text-4xl text-2xl font-bold'>Secure</h1>
+                    <h1 className='lg:text-4xl md:text-3xl text-2xl font-bold'>Secure</h1>
                     <div className='col-span-1 md:hidden flex items-end justify-end'>
                         <Image src={"/step3.svg"} alt='' width={700} height={100} />
                     </div>
