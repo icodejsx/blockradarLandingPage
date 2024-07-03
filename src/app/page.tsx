@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
 import Cta from './components/Cta';
@@ -11,10 +11,29 @@ import { FiMenu, FiX } from 'react-icons/fi';
 const Page = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  const handleClickOutside = (event: any) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setIsMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMenuOpen]);
 
   return (
     <section className="w-full   ">
@@ -61,7 +80,7 @@ const Page = () => {
 
           {/* Dropdown Menu for Mobile */}
           {isMenuOpen && (
-            <div className="md:hidden flex flex-col gap-4 mt-4 relative bg-[] p-4 rounded-lg">
+            <div ref={menuRef} className="md:hidden flex flex-col gap-4 mt-4 relative bg-[] p-4 rounded-lg">
               <Link href="" className="text-white">Documentation
               </Link>
               <Link href="" className="text-white">Pricing
@@ -99,7 +118,7 @@ const Page = () => {
       </div>
 
       <div className="w-full pt-20 ">
-        <Image src="/see.svg" alt="" width={100} height={100} className='object-fill w-full' />
+        <Image src="/see.svg" alt="" width={100} height={100} className='object-fill md:w-full w-[90rem]' />
       </div>
 
       <Features />
