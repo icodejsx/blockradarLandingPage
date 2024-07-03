@@ -8,7 +8,7 @@ const Footer = () => {
             <div className=' flex items-start gap-24 justify-start'>
                 <div className=''>
 
-                    <Image src={"/a.svg"} alt='' width={200} height={100} />
+                    <Image src={"/d.png"} alt='' width={200} height={100} />
                 </div>
                 <main className='flex flex-col gap-4'>
                     <p className=''>Links</p>

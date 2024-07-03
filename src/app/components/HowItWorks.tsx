@@ -24,15 +24,15 @@ const HowItWorks = () => {
 
                 </div>
                 <div className='col-span-1 flex items-end justify-end'>
-                    <Image src={"/how.svg"} alt='' width={500} height={100} />
+                    <Image src={"/how.svg"} alt='' width={700} height={100} />
                 </div>
             </main>
 
 
 
-            <main className=' grid grid-cols-2 gap-5 jus justify-between items-center w-full'>
+            <main className=' grid grid-cols-2 gap-10 jus justify-between items-center w-full'>
                 <div className='col-span-1 flex items-end justify-start'>
-                    <Image src={"/step2.svg"} alt='' width={500} height={100} />
+                    <Image src={"/step2.svg"} alt='' width={700} height={100} />
                 </div>
                 <div className='col-span-1 flex flex-col gap-6 items-start'>
                     <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  text px-6 py-2 text-xl rounded-full inline' >
@@ -55,7 +55,7 @@ const HowItWorks = () => {
                     <p className='text-xl'>Follow our straightforward integration guide to add stablecoin deposit functionality to your app.</p>
                 </div>
                 <div className='col-span-1 flex items-end justify-end'>
-                    <Image src={"/step3.svg"} alt='' width={500} height={100} />
+                    <Image src={"/step3.svg"} alt='' width={700} height={100} />
                 </div>
             </main>
         </section>

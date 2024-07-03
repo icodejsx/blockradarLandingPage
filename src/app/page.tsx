@@ -11,7 +11,17 @@ const Page = () => {
       <div className="flex flex-col items-center w-full gap-16" style={{ backgroundImage: 'url("/background.svg")', }}>
         <main className="flex justify-between items-center p-5 w-full">
           <div className="flex items-center gap-2">
-            <Image src="/logg.jpg" alt="" width={35} height={50} />
+            <Image
+              src="/aaa.png"
+              alt=""
+              width={35}
+              height={50}
+              style={{
+                boxShadow: '0px 10px 30px rgba(305, 355, 255, 0.4)'  // Even larger shadow
+              }}
+            />
+
+
             <Image src="/lo.svg" alt="" width={100} height={100} />
           </div>
 
