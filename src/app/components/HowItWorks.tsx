@@ -14,7 +14,7 @@ const HowItWorks = () => {
                 </h1>
             </div>
 
-            <main className=' md:grid grid-cols-2 gap-5 items-center justify-between'>
+            <main className=' flex flex-col md:grid grid-cols-2 gap-5 items-center justify-between'>
                 <div data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-duration="500"
@@ -24,26 +24,26 @@ const HowItWorks = () => {
                         Step 1
                     </h5>
                     <h1 className='lg:text-4xl md:text-3xl  text-2xl font-bold'>Integrate</h1>
-                    <div data-aos="fade-left"
+                    {/* <div data-aos="fade-left"
                         data-aos-offset="300"
                         data-aos-duration="500"
                         data-aos-easing="ease-in-sine" className='col-span-1 flex md:hidden items-end justify-end'>
                         <Image src={"/how.svg"} alt='' width={700} height={100} />
-                    </div>
+                    </div> */}
                     <p className='md:text-xl md:text-justify'>Follow our straightforward integration guide to add stablecoin deposit functionality to your app.</p>
 
                 </div>
                 <div data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-duration="500"
-                    data-aos-easing="ease-in-sine" className=' hidden col-span-1 md:flex items-end justify-end'>
+                    data-aos-easing="ease-in-sine" className='  col-span-1 flex items-end justify-end'>
                     <Image src={"/how.svg"} alt='' width={700} height={100} />
                 </div>
             </main>
 
 
 
-            <main className=' md:grid grid-cols-2 gap-10 jus justify-between items-center w-full'>
+            <main className=' flex flex-col  md:grid grid-cols-2 gap-10 jus justify-between items-center w-full'>
                 <div data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-duration="500"
@@ -58,19 +58,19 @@ const HowItWorks = () => {
                         Step 2
                     </h5>
                     <h1 className='lg:text-4xl md:text-3xl text-2xl font-bold'>Deposit</h1>
-                    <div data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-duration="500"
-                        data-aos-easing="ease-in-sine" className='col-span-1 md:hidden flex items-end justify-start'>
-                        <Image src={"/step2.svg"} alt='' width={700} height={100} />
-                    </div>
                     <p className='md:text-xl md:text-justify'>Users can deposit stablecoins directly from your app, with full control over their funds.</p>
 
+                </div>
+                <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-duration="500"
+                    data-aos-easing="ease-in-sine" className='col-span-1 md:hidden flex items-end justify-start'>
+                    <Image src={"/step2.svg"} alt='' width={700} height={100} />
                 </div>
             </main>
 
 
-            <main className=' md:grid grid-cols-2 gap-5 items-center justify-between'>
+            <main className=' flex flex-col  md:grid grid-cols-2 gap-5 items-center justify-between'>
                 <div data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-duration="500"
@@ -80,20 +80,20 @@ const HowItWorks = () => {
                         Step 3
                     </h5>
                     <h1 className='lg:text-4xl md:text-3xl text-2xl font-bold'>Secure</h1>
-                    <div data-aos="fade-left"
+                    {/* <div data-aos="fade-left"
                         data-aos-duration="500"
 
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine" className='col-span-1 md:hidden flex items-end justify-end'>
                         <Image src={"/step3.svg"} alt='' width={700} height={100} />
-                    </div>
+                    </div> */}
                     <p className='md:text-xl md:text-justify'>Follow our straightforward integration guide to add stablecoin deposit functionality to your app.</p>
                 </div>
                 <div data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-duration="500"
 
-                    data-aos-easing="ease-in-sine" className='col-span-1 hidden md:flex items-end justify-end'>
+                    data-aos-easing="ease-in-sine" className='col-span-1  flex items-end justify-end'>
                     <Image src={"/step3.svg"} alt='' width={700} height={100} />
                 </div>
             </main>

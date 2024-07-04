@@ -113,12 +113,12 @@ const Page = () => {
         </header>
 
         <main className="flex flex-col items-center gap-6 p-5">
-          <div data-aos-duration="1000" data-aos="fade-up" className="hidden md:text-5xl  lg:text-[4rem] md:flex flex-col items-center md:gap-4  font-bold bg-gradient-to-t from-[#a4a2a2] to-[#d6d7d6] bg-clip-text text-transparent">
+          <div data-aos-duration="1000" data-aos="fade-up" className="hidden md:text-5xl  lg:text-[4rem] md:flex flex-col items-center md:gap-4  font-bold ">
             <h1 >Seamless Stablecoin Deposit</h1>
             <h1 >For Your Fintech App</h1>
           </div>
 
-          <div data-aos-duration="1000" data-aos="fade-up" className="md:hidden  text-3xl md:text-[4rem] text-center flex flex-col items-center md:gap-4  text- font-bold bg-gradient-to-t from-[#a4a2a2] to-[#d6d7d6] bg-clip-text text-transparent">
+          <div data-aos-duration="1000" data-aos="fade-up" className="md:hidden  text-3xl md:text-[4rem] text-center flex flex-col items-center md:gap-4  text- font-bold">
             <h1>Seamless Stablecoin Deposit For Your Fintech App</h1>
 
           </div>
