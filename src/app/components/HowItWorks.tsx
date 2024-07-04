@@ -28,7 +28,7 @@ const HowItWorks = () => {
                         data-aos-easing="ease-in-sine" className='col-span-1 flex md:hidden items-end justify-end'>
                         <Image src={"/how.svg"} alt='' width={700} height={100} />
                     </div>
-                    <p className='md:text-xl text-justify'>Follow our straightforward integration guide to add stablecoin deposit functionality to your app.</p>
+                    <p className='md:text-xl md:text-justify'>Follow our straightforward integration guide to add stablecoin deposit functionality to your app.</p>
 
                 </div>
                 <div data-aos="fade-left"
@@ -58,7 +58,7 @@ const HowItWorks = () => {
                         data-aos-easing="ease-in-sine" className='col-span-1 md:hidden flex items-end justify-start'>
                         <Image src={"/step2.svg"} alt='' width={700} height={100} />
                     </div>
-                    <p className='md:text-xl text-justify'>Users can deposit stablecoins directly from your app, with full control over their funds.</p>
+                    <p className='md:text-xl md:text-justify'>Users can deposit stablecoins directly from your app, with full control over their funds.</p>
 
                 </div>
             </main>
@@ -78,7 +78,7 @@ const HowItWorks = () => {
                         data-aos-easing="ease-in-sine" className='col-span-1 md:hidden flex items-end justify-end'>
                         <Image src={"/step3.svg"} alt='' width={700} height={100} />
                     </div>
-                    <p className='md:text-xl text-justify'>Follow our straightforward integration guide to add stablecoin deposit functionality to your app.</p>
+                    <p className='md:text-xl md:text-justify'>Follow our straightforward integration guide to add stablecoin deposit functionality to your app.</p>
                 </div>
                 <div data-aos="fade-left"
                     data-aos-offset="300"
