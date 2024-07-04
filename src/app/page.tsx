@@ -90,7 +90,7 @@ const Page = () => {
             </nav>
 
             <div className="hidden md:flex">
-              <Link href="" className="text-[#70FF00] border-[#70FF00] border-[1px] rounded-full p-2 px-3 text-sm">
+              <Link href="https://www.blockradar.co/beta" className="text-[#70FF00] border-[#70FF00] border-[1px] rounded-full p-2 px-3 text-sm">
                 Join Private Beta
               </Link>
             </div>
@@ -112,22 +112,22 @@ const Page = () => {
           </motion.div>
         </header>
 
-        <main className="flex flex-col items-center gap-6 p-5">
+        <main className="flex flex-col items-start md:items-center gap-6 p-5">
           <div data-aos-duration="1000" data-aos="fade-up" className="hidden md:text-5xl  lg:text-[4rem] md:flex flex-col items-center md:gap-4  font-bold bg-gradient-to-t from-[#a4a2a2] to-[#d6d7d6] bg-clip-text text-transparent">
             <h1 >Seamless Stablecoin Deposit</h1>
             <h1 >For Your Fintech App</h1>
           </div>
 
-          <div data-aos-duration="1000" data-aos="fade-up" className="md:hidden  text-2xl md:text-[4rem] flex flex-col items-center md:gap-4  text-center font-bold bg-gradient-to-t from-[#a4a2a2] to-[#d6d7d6] bg-clip-text text-transparent">
+          <div data-aos-duration="1000" data-aos="fade-up" className="md:hidden  text-4xl md:text-[4rem] flex flex-col items-center md:gap-4  text- font-bold bg-gradient-to-t from-[#a4a2a2] to-[#d6d7d6] bg-clip-text text-transparent">
             <h1>Seamless Stablecoin Deposit For Your Fintech App</h1>
 
           </div>
 
 
-          <div data-aos-duration="3000" data-aos="fade-up" className="lg:w-[800px] md:w-[600px] text-center md:text-xl font-medium">
+          <div data-aos-duration="3000" data-aos="fade-up" className="lg:w-[800px] md:w-[600px] md:text-center md:text-xl font-medium">
             <h6>Empower your customers with secure, non-custodial stablecoin deposits using our easy-to-integrate wallet infrastructure.</h6>
           </div>
-          <Link data-aos-duration="3000" data-aos="fade-up" href="" className="bg-gradient-to-t from-[#245200] to-[#70FF00] px-6 py-2 rounded-full shadow-2xl border border-[#70FF00]">
+          <Link data-aos-duration="3000" data-aos="fade-up" href="" className="bg-gradient-to-t from-[#245200] flex items-start to-[#70FF00] px-6 py-2 rounded-full shadow-2xl border border-[#70FF00]">
             Join Private Beta
           </Link>
         </main>

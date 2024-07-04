@@ -12,7 +12,7 @@ const Cta = () => {
                 <p data-aos="fade-up"
                     data-aos-duration="2000">Join the future of digital finance with our seamless, secure, and user-friendly stablecoin deposit solution.</p>
                 <Link data-aos="fade-up"
-                    data-aos-duration="3000" href="" className="bg-gradient-to-t from-[#245200] to-[#70FF00] px-6 py-2 rounded-full shadow-2xl border border-[#70FF00]">
+                    data-aos-duration="3000" href="https://www.blockradar.co/beta" className="bg-gradient-to-t from-[#245200] to-[#70FF00] px-6 py-2 rounded-full shadow-2xl border border-[#70FF00]">
                     Join Private Beta
                 </Link>
 
