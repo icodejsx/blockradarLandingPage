@@ -18,7 +18,7 @@ const HowItWorks = () => {
                 <div data-aos="fade-right"
 
                     data-aos-duration="500"
-                    data-aos-easing="ease-in-sine" className='col-span-1 flex flex-col gap-6 items-start'>
+                    className='col-span-1 flex flex-col gap-6 items-start'>
 
                     <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  text px-6 py-2 md:text-xl rounded-full inline' >
                         Step 1
@@ -97,7 +97,7 @@ const HowItWorks = () => {
                     <Image src={"/step3.svg"} alt='' width={700} height={100} />
                 </div>
             </main>
-        </section>
+        </section >
     )
 }
 
