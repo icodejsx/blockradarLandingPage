@@ -5,7 +5,7 @@ const HowItWorks = () => {
     return (
         <section className='w-full flex flex-col items-center gap-16 md:p-10 p-5 mt-20 overflow-hidden'>
             <div data-aos="fade-up"
-                data-aos-duration="1000" className='flex flex-col gap-4 items-center'>
+                className='flex flex-col gap-4 items-center'>
                 <h5 className='bg-gradient-to-t from-[#222322] to-[#303130]  md:text-xl px-6 py-2 rounded-full inline' >
                     How it Works
                 </h5>
@@ -16,7 +16,6 @@ const HowItWorks = () => {
 
             <main className=' flex flex-col md:grid grid-cols-2 gap-5 items-center justify-between'>
                 <div data-aos="fade-right"
-
                     data-aos-duration="500"
                     className='col-span-1 flex flex-col gap-6 items-start'>
 
@@ -24,12 +23,7 @@ const HowItWorks = () => {
                         Step 1
                     </h5>
                     <h1 className='lg:text-4xl md:text-3xl  text-2xl font-bold'>Integrate</h1>
-                    {/* <div data-aos="fade-left"
-                        data-aos-offset="300"
-                        data-aos-duration="500"
-                        data-aos-easing="ease-in-sine" className='col-span-1 flex md:hidden items-end justify-end'>
-                        <Image src={"/how.svg"} alt='' width={700} height={100} />
-                    </div> */}
+
                     <p className='md:text-xl md:text-justify'>Follow our straightforward integration guide to add stablecoin deposit functionality to your app.</p>
 
                 </div>
