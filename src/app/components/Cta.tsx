@@ -18,7 +18,7 @@ const Cta = () => {
 
             </div>
             <div data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000" className='col-span-1 flex md:items-end items-center md:justify-end md:pr-16'>
+                data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" className='col-span-1 flex md:items-end items-center md:justify-end md:pr-16'>
                 <Image src={"/last.svg"} alt='' height={100} width={350} className='w-72 lg:w-80' />
             </div>
 
