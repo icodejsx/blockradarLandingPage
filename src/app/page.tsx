@@ -137,7 +137,7 @@ const Page = () => {
 
       </div>
 
-      <div data-aos-duration="3000" data-aos="fade-up" className="w-full pt-20 ">
+      <div data-aos-duration="1000" data-aos="fade-up" className="w-full pt-20 ">
         <Image src="/see.svg" alt="" width={100} height={100} className='object-fill md:w-full w-[90rem]' />
       </div>
 
